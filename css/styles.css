@@ -1,0 +1,511 @@
+h1, h2, h3, h4, h5{
+  font-family: UniversalSans-864;
+}
+
+p{
+  font-family: UniversalSans-450;
+
+}
+
+
+@font-face {
+  font-family:UniversalSans-450 ;
+  src: url(UniversalSans-v1-2-0-10-20-111111112111-01-450-TRIAL.ttf);
+}
+
+@font-face {
+  font-family:UniversalSans-864 ;
+  src: url(UniversalSans-v1-2-0-10-20-111111112111-01-864-TRIAL.ttf);
+}
+
+@font-face {
+  font-family:DMSerifDisplay ;
+  src: url(DMSerifDisplay-Regular.ttf);
+}
+
+@font-face {
+  font-family:DMSerifDisplay-Italic ;
+  src: url(DMSerifDisplay-Italic.ttf);
+}
+
+
+@font-face {
+  font-family:Benzin ExtraBold ;
+  src: url(BenzinExtraBold.ttf);
+}
+
+/* Navbar */
+.navbar{
+
+  padding: 1% 3%;
+
+
+}
+
+.logo{
+    height: 3rem;
+  border-radius: 30px;
+
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: UniversalSans-450;
+  font-weight: 500;
+  margin-left: 80px;
+  margin-top:20px;
+  
+
+}
+
+
+/* Title */
+
+#title {
+  /* The image used */
+  background-image: url("../images/1_background.png");
+
+  /* Set a specific height */
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-size: 100% 100%; 
+    height: 100%;
+    min-height:120vh;
+  color:white;
+
+  text-align: center;
+
+}
+
+.title-heading{
+  padding-left: 7%;
+  padding-top: 7%;
+  text-align: center;
+
+
+}
+.title-content{
+  text-align: left;
+ 
+}
+
+.title-text{
+  margin-top:40px;
+  font-size: 3.75rem;
+  font-family: DMSerifDisplay;
+
+
+}
+
+.title-subtext{
+  font-family: UniversalSans-450;
+}
+
+.title-button{
+  color:white;
+  background-color: blueviolet;
+  border:none;
+  padding:5px 30px;
+  font-size:1.25rem;
+  font-family: UniversalSans-864;
+}
+
+
+
+.title-image{
+ 
+  width: 110%;
+}
+
+.scrollicon{
+ margin-top: 70px;
+  height:3.5rem;
+}
+
+/* About us */
+
+#about-us{
+ /* The image used */
+ background-image: url("../images/2_background.png");
+
+ /* Set a specific height */
+
+
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ background-size: 100% 100%; 
+   height: 100%;
+ color:white;
+
+ padding: 7% 15%;
+
+ text-align: center;
+}
+
+#about-us h1{
+  font-size: 4rem;
+  font-family: Benzin ExtraBold;
+}
+
+#about-us p{
+  font-size: 1.5rem;
+  font-family: UniversalSans-450;
+}
+
+#introduction{
+  /* The image used */
+  background-image: url("../images/3_background.png");
+ 
+  /* Set a specific height */
+ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-size: 100% 100%; 
+  height:100%;
+
+  color:white;
+ 
+  text-align: center;
+
+  padding: 5% 7%;
+ }
+
+.intro-sub-section{
+   margin-top: 7% ;
+   margin-bottom: 10% ;
+ } 
+
+.intro-content-1{
+   padding-right:10%;
+   padding-top: 7%;
+   text-align: left;
+
+ }
+
+.intro-content-1 h1{
+   font-size:3.5rem;
+   font-family: DMSerifDisplay;
+ }
+
+.intro-content-1 p{
+  font-size:1.5rem;
+  font-family: UniversalSans-450;
+}
+
+.intro-content-2{
+  padding-left:10%;
+  padding-top: 7%;
+  text-align: left;
+
+}
+
+.intro-content-2 h1{
+  font-size:4rem;
+  font-family: DMSerifDisplay;
+}
+
+.intro-content-2 p{
+ font-size:1.5rem;
+ font-family: UniversalSans-450;
+}
+
+
+
+.intro-image-1{
+   margin-left:70px;
+   width: 75%;
+
+ }
+
+.intro-content-1{
+  padding-left:10%;
+  padding-top: 7%;
+  text-align: left;
+
+}
+
+.intro-image-2{
+  margin-left:70px;
+  width: 75%;
+  
+
+}
+
+#preview{
+
+  /* The image used */
+  background-image: url("../images/4_background.png");
+ 
+  /* Set a specific height */
+ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-size: 100% 100%; 
+  height:100%;
+
+  color:white;
+ 
+  
+  text-align:center;
+
+  padding: 7% 12%;
+
+
+}
+
+#preview h1{
+  font-size:4rem;
+  font-family: DMSerifDisplay;
+}
+ 
+.preview-img{
+  width:100%;
+  margin-bottom: 10%;
+
+}
+
+#roadmap{
+
+  /* The image used */
+  background-image: url("../images/5_background.png");
+ 
+  /* Set a specific height */
+ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-size: 100% 100%; 
+  height:100%;
+
+  color:white;
+ 
+  
+  text-align:center;
+
+  padding: 7% 12%;
+
+
+}
+
+.roadmap-icon{
+  width:50%;
+}
+
+.roadmap-content{
+  margin-top:10px;
+}
+
+.roadmap-content h3{
+  font-family: UniversalSans-864;
+}
+
+.roadmap-content p{
+  font-family: UniversalSans-450;
+}
+#team{
+
+  /* The image used */
+  background-image: url("../images/6_background.png");
+ 
+  /* Set a specific height */
+ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-size: 100% 100%; 
+  height:100%;
+
+  color:white;
+ 
+  
+  text-align:center;
+  
+
+
+  padding: 2% 10%;
+
+
+}
+
+#team h1{
+  font-size:4rem;
+  font-family: DMSerifDisplay;
+}
+
+
+.cover-container {
+
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom:10%;
+}
+.cover-item {
+  position: relative;
+  display: inline-block;
+  margin: 8px 8px;
+  width: 32%;
+ 
+  vertical-align: bottom;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.cover-item h2{
+  font-family: UniversalSans-864;
+}
+
+.cover-item p{
+  font-family: UniversalSans-450;
+}
+
+
+
+.team-image{
+  width:100%;
+}
+
+.scroll-button{
+  width:30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+  
+
+
+}
+
+.scroll-button-group{
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#contact{
+
+  /* The image used */
+  background-image: url("../images/7_background.png");
+ 
+  /* Set a specific height */
+ 
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  background-size: 100% 100%; 
+  height:100%;
+
+  color:white;
+ 
+  
+  padding-top: 7%;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right:5%;
+
+
+
+
+}
+.social-link h2{
+  font-family: UniversalSans-864;
+}
+
+.social-link p{
+  font-size: 1.5rem;
+  font-family: UniversalSans-450;
+}
+
+.social-logo{
+  width:2.5rem;
+}
+
+.contact-logo{
+  margin-top:10%;
+  padding-left: 1%;
+  width:10%;
+
+
+}
+
+
+@media (max-width: 750px) {
+
+  body, .intro-content-1, .intro-content-2  {
+    text-align: center;
+  }
+
+  .title-content{
+    text-align: center;
+    margin-bottom: 10%;
+   
+
+  
+  }
+
+  .title-image{
+    width: 80%;
+  }
+
+  .about-us-content h1{
+    text-align:center;
+  }
+ 
+  .about-us-content p{
+    text-align:center;
+  }
+ 
+
+  .intro-image-1, .intro-image-2{
+    margin-left: 0;
+  }
+
+  .intro-content-2{
+    padding-left: 5%;
+  }
+
+ .intro-image-2{
+   display: none;
+ }
+
+  .roadmap-icon{
+    width:20%;
+  }
+
+
+   .scroll-button{
+     display:none;
+   }
+
+   .contact-logo{
+    margin-top:10%;
+
+    width:20%;
+  
+  
+  }
+
+
+
+
+
+}
