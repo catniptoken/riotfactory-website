@@ -448,7 +448,7 @@ p{
 }
 
 
-@media (max-width: 750px) {
+@media (max-width: 1080px) {
 
   body, .intro-content-1, .intro-content-2  {
     text-align: center;
